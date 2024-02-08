@@ -1,0 +1,14 @@
+/* Add styles for the scores container */
+.scores-container {
+    width: 400px; /* Adjust as needed */
+    height: auto; /* Allow the container to expand vertically */
+    overflow-y: auto; /* Add vertical scroll if content exceeds container height */
+    border: 1px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+  }
+  
+  /* Style for each score */
+  .score {
+    margin-bottom: 10px; /* Add some spacing between scores */
+  }
+  

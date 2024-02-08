@@ -1,0 +1,11 @@
+{
+    "name": "NBA SCORES",
+    "version": "1.0.0",
+    "description": "live nba scores",
+    "manifest_version": 3,
+    "author": "Atiyut Khemkhon",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "NBA_LIVE_SCORES"
+    }
+}
