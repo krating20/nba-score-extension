@@ -1,46 +1,36 @@
-/* Add styles for the scores container */
+body{
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    background-color: black;
+}
 
-  body {
+.container1 {
+
+    flex-direction: column;
+    justify-content: center;
+    width:min-content;
+    text-align: center;
     background-color: black;
     font-family: sans-serif;
-    
-}
-
-container1{
-
-}
-
-body,
-table,
-th,
-td {
     color: white;
-    border: 1px solid #ccc; /* Add borders to all table cells */
     white-space: nowrap;
-    text-align: center;
-}
-#scoresTable{
-    max-height: 10px;
-    overflow-y: auto; /* Add vertical scroll if content exceeds container height */
+  }
+
+h2{
+    border-bottom: 1px solid #ccc; /* Add borders to all table cells */
 }
 table{
-    width: auto; /* Adjust as needed */
-    overflow-y: auto; /* Add vertical scroll if content exceeds container height */
-    border: 1px solid #ccc; /* Add border */
-    
-}
 
+}
 thead{
-    width: auto;
     border: 1px solid #ccc; /* Add borders to all table cells */
 }
-#scoresBody {
-    width: auto;
-    font-family: sans-serif;
-    font-size: 100%; /* Font size */
-    background-color: black;
-    color: white;
-    text-align: center;
-  
-}
+td {
+    border: 1px solid #ccc; /* Add borders to all table cells */
 
+  }
+
+
+  .headline {
+    white-space: normal;
+  }

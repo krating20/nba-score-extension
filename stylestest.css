@@ -1,0 +1,43 @@
+
+  /* Add styles for the scores container */
+
+  body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+th{
+    border-left: 1px solid #ccc; /* Add borders to all table cells */
+    border-right: 1px solid #ccc; /* Add borders to all table cells */
+}
+
+table,
+td {
+    color: white;
+    border: 1px solid #ccc; /* Add borders to all table cells */
+    white-space: nowrap;
+    text-align: center;
+}
+
+table{
+    width: auto; /* Adjust as needed */
+    overflow-y: auto; /* Add vertical scroll if content exceeds container height */
+    border: 1px solid #ccc; /* Add border */
+    
+}
+
+thead{
+    width: auto;
+
+}
+#scoresBody {
+    width: auto;
+    font-family: sans-serif;
+    font-size: 100%; /* Font size */
+    background-color: black;
+    color: white;
+    text-align: center;
+  
+}
+
