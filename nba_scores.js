@@ -49,7 +49,7 @@ async function fetchData() {
             const randomIndex = Math.floor(Math.random() * headlines.length);
             const randomHeadline = headlines[randomIndex];
             const headlineContainer = document.getElementById('headlineContainer');
-            headlineContainer.textContent = randomHeadline;
+            headlineContainer.textContent = 'Up next: ' + randomHeadline; // Prepend "Up next: " text
         } else {
             console.log("Failed to retrieve data from the news API endpoint.");
         }
