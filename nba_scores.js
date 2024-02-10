@@ -28,12 +28,18 @@ async function fetchData() {
 
                 // Check if the game status is "Final" and bold and color the higher score in red
                 if (shortDetail === "Final") {
-                    if (homeTeamScore > awayTeamScore) {
+
+                    var intHome = parseInt(homeTeamScore);
+                    var intAway = parseInt(awayTeamScore);
+                    if (intHome > intAway) {
                         homeScoreCell.style.fontWeight = "bold";
                         homeScoreCell.style.color = "green"; // Change text color to green
-                    } else if (awayTeamScore > homeTeamScore) {
+                    } else if (intAway > intHome) {
+                        console.log(intHome);
+                        console.log(intAway);
                         awayScoreCell.style.fontWeight = "bold";
                         awayScoreCell.style.color = "green"; // Change text color to green
+
                     }
                 }
             });
